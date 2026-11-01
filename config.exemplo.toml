@@ -1,0 +1,9 @@
+# Exemplo de categorias personalizadas.
+# Uso: organizador organizar ~/Downloads --config config.exemplo.toml
+# Cada chave vira o nome de uma pasta; extensões não listadas vão para "Outros".
+
+[categorias]
+Fotos = ["jpg", "jpeg", "png", "heic"]
+Faculdade = ["pdf", "docx", "pptx"]
+Planilhas = ["xlsx", "csv"]
+Programas = ["exe", "msi"]
